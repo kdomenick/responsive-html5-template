@@ -1,0 +1,146 @@
+/*************************  TYPOGRAPHY & STYLES APPLIED TO COMMON ELEMENTS  *************************/
+html {margin:0 auto; height:100%; width:100%; overflow-y:scroll;}
+body {margin:0 auto; height:100%; width:100%; font-size:85%; font-weight:300; color:#746c6c; font-family: "aller_lightregular", Tahoma, Verdana, Arial, sans-serif; font-style:normal; line-height:1.5; word-wrap:break-word;}
+img {border: 0em;}
+img.gallery {display:block; margin-left:auto; margin-right:auto;}
+p {margin-bottom: 0.5em;}
+table {width:100%;}
+.clear-both {clear:both;}
+h1,h2,h3 {color:#00678F; font-weight:bold;}
+h1.pagetitle {color:#3b3b3b; width:100%; font-weight:500; background-color:#f5f5f5; margin:0 0 .83em 0; padding:.83em 0 .83em 10px;}
+h4 {font-weight:bold;}
+a {color:#49a7b7; text-decoration:none;}
+a:hover {color:#626363;}
+a.top {color:#333; text-decoration:underline;}
+a.top:hover {color:#49a7b7;}
+hr.dashed {border:0; border-bottom:3px dashed #ccc; margin:20px 0;}
+.bold {font-weight:bold;}
+.italic {font-style:italic;}
+.inline {display:inline-block;}
+.blue {color:#49a7b7;}
+.dkblue {color:#023e56;}
+.dkgrey {color:#333;}
+.center {text-align:center;}
+.heading {background:#333; color:white; font-weight:bold;}
+.xsmall {font-size: 80%;}
+fieldset {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    min-width: -webkit-min-content;
+    border-width: 1px;
+    border-color: #ccc;
+   }
+
+/*************************  STYLES FOR SPECIFIC REGIONS  *************************/
+#container {background-color:white; width:100%; height:100%}
+#top-bar {width:100%; height:20px; background:#00678F;}
+#bottom-bar {width:100%; height:5px; background:#333;}
+header, footer, #content {width:90%; margin:0 auto; clear:both; display:block; padding:.5em;  box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+header {margin-top:2px; border-top: 1px solid #eaeaea;}
+#main-header {width:100%; height:100px;}
+#main-footer {width:100%; clear:both;}
+#main-content {width:100%; clear:both;}
+footer {color:white; margin-top:20px; box-sizing:border-box;}
+footer h3 {color:white;} 
+#footer-wrapper {width:100%; background-color:#00678f;}
+.my-footer {width:88%; margin:0 auto; clear:both; display:block; padding:1em;  box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+
+
+
+/*************************  NAVIGATION  *************************/
+nav.menu {border-top: 1px solid #eaeaea; clear:both;}
+.bottom-border {border-bottom:1px solid #eaeaea;}
+ul.menu-list {list-style-type:none; padding:0; margin:1em 15px;}
+ul.menu-list-center {list-style-type:none; padding:0; margin:1em 15px; text-align:center;}
+li.menu-item {display:inline; margin: 0em 1.5em;}
+a.menu-item-link {text-decoration:none; color:#49a7b7; position:relative;}
+a.menu-item-link:hover {color:#000000;}
+a.menu-item-link:active {top:0.1em; left:0.1em;}
+nav select {display:none; visibility:none;}
+.mobile-menu {display:none;}
+a.menu-item-truven-footer {text-decoration:none; color:white; margin-bottom:3px;}
+
+
+/*************************  COLUMN LAYOUT  *************************/
+.column-half, .column-quarter, .column-third, .column-three-quarter, .column-one-quarter, .column-two-third {float:left;}
+.column-half {width:50%;}
+.column-quarter {width:25%;}
+.column-one-quarter {width:25%;}
+.column-three-quarter {width:75%}
+.column-third {width:33%;}
+.column-two-third {width:66%;}
+.inner {padding:1.2em;}
+
+/*************************  LAYOUT & APPEARANCE CLASSES FOR VARIOUS DIVS  *************************/
+.float-left {float: left;}
+.float-right {float: right;}
+.clear-both {clear: both;}
+.shadow {-webkit-box-shadow:0px 3px 6px -2px rgba(0,0,0,0.7); -moz-box-shadow:0px 3px 6px -2px rgba(0,0,0,0.7); -o-box-shadow:0px 3px 6px -2px rgba(0,0,0,0.7); -ms-box-shadow:0px 3px 6px -2px rgba(0,0,0,0.7); box-shadow:0px 3px 6px -2px rgba(0,0,0,0.7); margin-right: 0.4em !important;}
+.box {border:1px solid #ccc; box-sizing:border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.grey {background-color:#eee; box-sizing:border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.pad {padding:1.2em; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+.info {background-color:#cef2f8; border-top:2px solid #746c6c; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+.nopad {padding:0; margin:0;}
+.dkbox {background-color:#333; color:white;}
+.notice {background-color:#68aeec; color:white; clear-both; padding:.9em;}
+.notice-title {font-size:1.2em; text-align:center; vertical-align:middle; border-right:1px solid white; text-transform:uppercase; display:table-cell; width:120px;}
+.notice-body {font-size:82%; display:table-cell; padding-left:20px; vertical-align:middle;}
+
+/*************************  FORM STYLES  *************************/
+#errorList {color:#CC1100; border:1px solid #FF9999; margin:20px 0; font-size:1.1em; padding:10px 0 10px 80px; background:#FFDDDD url(images/warning.png) 5px 5px no-repeat;}
+.error{color:#CC2929;}
+.errorinput {border: 2px solid #CC2929;}
+input[type=text],input[type=password] {margin-bottom:15px; margin-top:10px; width:100%; padding:10px; border-radius:5px; border:1px solid #49a7b7; display:block; box-sizing:border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; color:#746c6c;}
+input[type=radio], input[type=checkbox] {margin-bottom:15px; margin-top:10px;}
+input[type=submit],input[type=reset] {margin-top:20px; width:100%; padding:10px; border-radius:5px; border:1px solid #49a7b7; background-color:#49a7b7; color:#363636;box-sizing:border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+select {margin-bottom:15px; margin-top:10px; padding:10px; border-radius:5px; border:1px solid #49a7b7; box-sizing:border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; color:#746c6c;}
+input[type=submit]:hover, input[type=reset]:hover {background-color:#0095b1;}
+textarea{width:100%; padding:10px; margin-top:10px; border:1px solid #49a7b7; border-radius:5px; margin-bottom:15px; resize:none; box-sizing:border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+input[type=text]:focus, textarea:focus {border-color: #4697e4; color:#746c6c;}
+label {display:block;}
+label.inline {display:inline-block;}
+.required {color:#49a7b7; padding:0 3px;}
+.limit {color:#52a61e; padding:0 3px;}
+#action-buttons, #olb-action-buttons {padding-top:1.2em;}
+
+a.button {background:#fff url('http://www.summithealth.org/external_apps/images/bg-shade-light.png') repeat-x center bottom; border: 1px solid #cccccc; border-color:#e6e6e6 #e6e6e6 #bfbfbf; border-bottom-color:#b3b3b3; color:#3a3a3a; cursor:pointer; text-shadow:0 1px 1px rgba(255,255,255,0.75); font-weight:normal; text-align:center; margin-top:1.6em; margin-bottom:.3em; margin-right:0.6em; padding:12px 15px; -webkit-border-radius:3px; border-radius:3px; box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);}
+
+a.button-small {background:#fff url('http://www.summithealth.org/external_apps/images/bg-shade-light.png') repeat-x center bottom; border: 1px solid #cccccc; border-color:#e6e6e6 #e6e6e6 #bfbfbf; border-bottom-color:#b3b3b3; color:#3a3a3a; cursor:pointer; text-shadow:0 1px 1px rgba(255,255,255,0.75); font-weight:normal; text-align:center; margin-top:1.6em; margin-bottom:.3em; margin-right:0.6em; padding:6px 9px; -webkit-border-radius:3px; border-radius:3px; box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);}
+
+a.button:hover, a.button-small:hover {background:none; background-color:#ccc;}
+
+input[type=text].autowidth {width:auto; display:inline; color:#746c6c;}
+input[type=submit].no-style {background-color:white; border:none; padding:0; margin:0; text-align:left; color:#49a7b7; cursor:pointer;}
+input[type=submit].no-style:hover {color:#626363; cursor:pointer;}
+label.no-wrap {white-space:nowrap; padding-bottom:8px;}
+input[type=text].problem, input[type=radio].problem, input[type=checkbox].problem, select.problem {background-color:pink;}
+
+
+/* For horizontal elements in a form, wrap the label and input in a .hrow div */
+.hrow {clear:both; display:table; width:100%;}
+.hrow .label-wrapper {width:32%; float:left;}
+.hrow .input-wrapper {width:66%; margin-left:1%; float:left;}
+
+/*************************  TABLES  *************************/
+table {width:100%; border-collapse:collapse;}
+/* Zebra striping */
+tr:nth-of-type(odd) {background:#eee;} 
+th {background:#333; color:white; font-weight:bold;}
+td, th {padding:6px; border:1px solid #ccc; text-align:left;}
+
+.tabcell {display:table-cell; padding:6px; border:1px solid #ccc; text-align:left;}
+.tabrow {display:table-row;}
+.tabcolumn {display:table-column;}
+
+/*************************  STYLES RETAINED FROM ORIGINAL CSS *************************/
+#olberrorList {color:#CC1100; border:1px solid #FF9999; margin:20px 0; font-size:1.1em; padding:10px 0 0 90px; background:#FFDDDD url(images/warning.png) 5px 5px no-repeat;}
+#olberrorList p {padding:0; margin:0;}
+
+
+
+

@@ -1,0 +1,62 @@
+@media all and (max-width:48em){
+	img {max-width:100%;}
+	header, footer, #content {width:100%;}
+	.column-half, .column-third, .column-two-third .column-three-quarter, .column-one-quarter {width:100%;}
+	.column-quarter {width:50%;}
+	.stretch {width:100%; display:inline-block; *display:inline; zoom:1;}
+	#wrapper {float:none;}
+	nav ul {display:none; visibility:none;}
+	nav select {display:block; margin:0.5em auto; width:100%; font-size:1em; border:none; padding:12px 10px; text-indent:0.01px; text-overflow:""; 
+		background:#49a7b7 url(https://www.summithealth.org/external_apps/images/responsive-nav.png) no-repeat top right; color:white; font-weight:bold;
+		-webkit-appearance:none; -moz-appearance:none;}
+	nav select option {background-color:white; color:#9c9b9b;}
+	nav.menu select {border-radius:0;}
+	select {width:100%;}
+
+	/* Force tables to not be like tables anymore */
+	table, thead, tbody, th, td, tr, caption {display:block;}
+	/* Hide table headers  */
+	thead tr {display:none;}
+	tr {border:1px solid #ccc;}
+	
+	/* Behave  like a "row" */
+	td {border:none; border-bottom:1px solid #ccc; position:relative; padding-left:50%;}
+	td:before {position:absolute; top:6px; left:6px; width:45%; padding-right:10px; white-space:nowrap;}
+	
+			
+	/* Label the data  - must be done for each individual table that requires unique header labels*/
+	.tableclass1 td:nth-of-type(1):before { content: "Heading One"; }
+	.tableclass1 td:nth-of-type(2):before { content: "Heading Two"; }
+	.tableclass1 td:nth-of-type(3):before { content: "Heading Three"; }
+
+
+	.tableclass2 td:nth-of-type(1):before {content:"Heading One"; font-weight:bold;}
+	.tableclass2 td:nth-of-type(2):before {content:"Heading Two"; font-weight:bold;}
+	.tableclass2 td:nth-of-type(3):before {content:"Heading Three"; font-weight:bold;}
+	.tableclass2 td:nth-of-type(4):before {content:"Heading Four"; font-weight:bold;}
+	.tableclass2 td:nth-of-type(5):before {content:"Heading Five"; font-weight:bold;}
+}
+/*  Below is a real-life example of a job listing table
+.hrjobdetail td:nth-of-type(1):before {content:"Job Title"; font-weight:bold;}
+.hrjobdetail td:nth-of-type(2):before {content:"Facility"; font-weight:bold;}
+.hrjobdetail td:nth-of-type(3):before {content:"Employ Status"; font-weight:bold;}
+.hrjobdetail td:nth-of-type(4):before {content:"Shift"; font-weight:bold;}
+.hrjobdetail td:nth-of-type(5):before {content:"Date Posted"; font-weight:bold;}
+.hrjobdetail td:nth-of-type(6):before {content:"Description"; font-weight:bold;}
+.hrjobdetail td:nth-of-type(7):before {content:"Requirements"; font-weight:bold;}
+.hrjobdetail td:nth-of-type(8):before {content:"Full Description"; font-weight:bold;}
+
+}
+*/
+
+@media all and (max-width:25em){
+	.column-quarter {width:100%;}
+	#banner { }/* this is where you might change to a mobile banner instead of standard banner */
+	#wrapper {width:inherit;}
+	.box, .grey {width:95%;}
+	.inner {padding:0;}
+	.pad {padding:.5em;}
+	img {max-width:95%;}
+	.hrow .label-wrapper, .hrow .input-wrapper {display:block; float:none; width:100%;}
+}
+
